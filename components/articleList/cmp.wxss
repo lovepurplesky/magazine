@@ -1,0 +1,21 @@
+/* components/articleList/cmp.wxss */
+.container{
+    background-color:rgba(0,0,0,.1);
+    padding:20rpx;
+}
+.article{
+    /* 自定义组件必须设置display:block才能设置样式 */
+    display:block;
+    margin-top:30rpx;
+}
+.noMore{
+    display: block;
+    text-align: center;
+    font-size:26rpx;
+    color:#666;
+    margin-top:30rpx;
+}
+.loading{
+    display:block;
+    margin:30rpx 315rpx;
+}

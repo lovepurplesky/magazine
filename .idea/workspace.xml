@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5691e64-ef4c-4b70-a75d-9d567f637414" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/magazine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/add/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/add/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/add/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/add/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/article/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/article/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/article/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/article/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/articleList/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/articleList/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/articleList/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/articleList/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/behavior/my-behavior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/bigImg/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/bigImg/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/bigImg/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/bigImg/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgBtn/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgBtn/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgBtn/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgBtn/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgText/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgText/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgText/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/imgText/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/like/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/like/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/like/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/like/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/like/image/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/like/image/circle_fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/loading/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/loading/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/loading/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/loading/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/more/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/more/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/more/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/more/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/more/image/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nav/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nav/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nav/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nav/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nineImg/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nineImg/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nineImg/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/nineImg/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pureText/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pureText/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pureText/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pureText/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/recomment/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/recomment/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/recomment/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/recomment/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/search/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/search/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/search/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/search/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/subscribe/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/subscribe/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/subscribe/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/subscribe/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tagList/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tagList/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tagList/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tagList/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/video/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/video/cmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/video/cmp.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/video/cmp.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/video/image/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mark/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mark/relay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pic0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tab/catalog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tab/catalog_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tab/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tab/index_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tab/mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tab/mark_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loadMore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/like.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/subscribe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/catalog/catalog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/catalog/catalog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/catalog/catalog.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/catalog/catalog.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/mark/mark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/mark/mark.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/mark/mark.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/mark/mark.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/type/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/type/type.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/type/type.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/type/type.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/randomStr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/tagList.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="567012005">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="354" />
+    <option name="y" value="473" />
+    <option name="width" value="1554" />
+    <option name="height" value="928" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="magazine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magazine" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5691e64-ef4c-4b70-a75d-9d567f637414" name="Default Changelist" comment="" />
+      <created>1555226871064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555226871064</updated>
+      <workItem from="1555226880812" duration="526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="526000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

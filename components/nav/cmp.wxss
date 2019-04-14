@@ -1,0 +1,21 @@
+/* components/nav/cmp.wxss */
+.container{
+    width:750rpx;
+    padding:30rpx;
+    box-sizing: border-box;
+    background-color: #fff;
+    white-space: nowrap;
+}
+.type{
+    font-size:40rpx;
+    color:#888;
+    padding:0 30rpx;
+}
+.active{
+    color:#000;
+}
+/* ::-webkit-scrollbar{
+    width:0;
+    height:0;
+    color:transparent;
+} */

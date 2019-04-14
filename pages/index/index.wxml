@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<d-nav  class="nav" catch:nav="onNav"/>
+
+<d-recomment  recommend="{{recommend}}"  magazine-id="{{magazineId}}" class="recommend"/>
+
+
+<d-tagList mark-list="{{markList}}">
+    <d-add slot="before" class="add"/>
+    <view slot="after" class="to-catalog"
+    catch:tap="onCatalog">•••</view>
+</d-tagList>
+<d-articleList  more="{{getMore}}" article-list="{{articleList}}" magazine-id="{{magazineId}}"></d-articleList>
+
+<view class="loading-container" wx:if="{{loading}}">
+    <d-loading class="loading"></d-loading>
+</view>

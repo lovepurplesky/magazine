@@ -1,0 +1,21 @@
+<!--components/nineImg/cmp.wxml-->
+<view class="container">
+    <view class="img-container">
+        <image wx:for="{{imgArr}}" wx:key="*this" wx:if="{{index < 9}}"
+        catch:tap="onTap" src="{{item}}" data-index="{{index}}"></image>
+
+        <!-- <image catch:tap="onTap" src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image>
+        <image src="http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg"></image> -->
+    <text class="img-num" wx:if="{{imgArr.length > 9}}">{{imgArr.length}}</text>
+ </view>
+    <view class="text-container">
+        <text>{{mainTitle}}</text>
+    </view>
+</view>

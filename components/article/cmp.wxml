@@ -1,0 +1,49 @@
+<!-- 文章组件 -->
+<view class="container">
+    <view class="mark-container">
+        <image class="avatar" src="{{articleDetail.mark.avatar}}" />
+        <text class="text">{{articleDetail.mark.people}}等{{articleDetail.mark.count}}人mark</text>
+    </view>
+    <!-- type 2 图文 -->
+    <!-- 1 九宫格 -->
+    <!-- 3 video -->
+    <!-- 4 纯文字 -->
+    <!-- 0 大图 -->
+    <view>
+        <d-bigImg wx:if="{{articleDetail.type == 0}}"
+                  main-title="{{articleDetail.mainTitle }}" 
+                  img-src="{{articleDetail.imgArray[0]}}" />
+
+        <d-nineImg wx:elif="{{articleDetail.type == 1}}" 
+                   img-arr="{{articleDetail.imgArray}}"
+                   main-title="{{articleDetail.mainTitle}}" />
+
+        <d-imgText wx:elif="{{articleDetail.type == 2}}" 
+                   main-title="{{articleDetail.mainTitle}}"
+                   sub-head="{{articleDetail.subHead}}"
+                   img-src="{{articleDetail.imgArray[0]}}" />
+
+        <d-video wx:elif="{{articleDetail.type == 3}}" 
+                 main-title="{{articleDetail.mainTitle}}" 
+                 video-src="{{articleDetail.video.src}}"
+                 duration="{{articleDetail.video.duration}}"
+                 poster="{{articleDetail.video.poster}}" 
+                 video-id="{{articleDetail.videoId}}" />
+        <d-pureText wx:else 
+        main-title="{{articleDetail.mainTitle}}"
+         sub-head="{{articleDetail.subHead}}" />
+    </view>
+    <view class="control-container">
+        <view>
+            <!-- <d-tag  class="box" tag="{{心理}}" tagId="{{}}" /> -->
+            <d-tag tag="{{articleDetail.tagId}}" tag-id="{{articleDetail.tagId}}"></d-tag>
+        </view>
+        <view class="control-box">
+            <d-imgBtn open-type="share" class="box img-btn" >
+                <image slot="img" src="/images/mark/relay.png" />
+            </d-imgBtn>
+            <d-more class="box" tag="{{articleDetail.tagId}}" />
+            <d-like class="box" bind:like="onLike" like="{{likeStatus}}" />
+        </view>
+    </view>
+</view>

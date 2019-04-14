@@ -1,0 +1,26 @@
+<!-- pages/mark/mark.wxml -->
+<view class="container">
+    <view class="user-container">
+        <view class="user-info">
+            <view class="user-name">{{userInfo.nickName}}</view>
+            <view class="user-avatar">
+                <image wx:if="{{authorized}}" src="{{userInfo.avatarUrl}}"></image>
+                <!-- <button  class="get-user-info" wx:else="{{!authorized}}" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">
+                   <image  src="/images/mark/login.png"></image> 
+                    </button> -->
+                <d-imgBtn open-type="getUserInfo" bind:getuserinfo="onGetUserInfo">
+                    <image slot="img" src="/images/mark/login.png"></image>
+                </d-imgBtn>
+            </view>
+        </view>
+        <!-- <view class="share">
+            <image src="/images/mark/relay.png"></image>
+        </view> -->
+        <view class="share">
+            <d-imgBtn open-type="share" >
+                <image slot="img" src="/images/mark/relay.png" />
+            </d-imgBtn>
+        </view>
+    </view>
+    <d-articleList article-list="{{likeList}}"></d-articleList>
+</view>

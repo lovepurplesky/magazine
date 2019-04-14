@@ -1,0 +1,12 @@
+<!--文字列表组件，实现文章的展示和触底加载数据-->
+<view class="container">
+
+  <d-article wx:for="{{articleList}}"
+              wx:key="{{artid}}"
+              article-detail="{{item}}"
+              class="article"
+    ></d-article>
+  <d-loading class="loading" hidden="{{!loading}}"/>
+  <text class="noMore" wx:if="{{noMoreData}}">没有更多了</text>
+</view>
+ 
